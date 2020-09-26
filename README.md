@@ -41,7 +41,7 @@
 ## Config/telescope.php
 
 <ul>
-    <li> path - you can change the URL. Like debugger or some thing else. </li>
+    <li> path - you can change the URL (telescope). Like debugger or some thing else. </li>
     <li> enabled - You can be active or deactive the telescope</li>
     <li> middleware - you can be authorize user only view the telescope </li>
     <li> And some of the option that if you need try that also </li>
