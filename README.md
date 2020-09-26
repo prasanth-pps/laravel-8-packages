@@ -5,12 +5,12 @@
 <ul>
 <li>Install the telescope package in the project,
     <pre>
-        composer require laravel/telescope "2.1.7"
+        composer require laravel/telescope
     </pre>
     <pre>
         php artisan telescope:install
     </pre>
-    While run this command php artisan telescope:install in CMD,
+    While run this above command php artisan telescope:install in command,
 
     1. TelescopeServiceProvider.php file created in provider folder.
     2. With in public/assets/telescope folder design of telescope files will created like app.css,app.js and so on.
@@ -19,10 +19,10 @@
 </li>
 
 <li>
+    Telescope table will be created by this command
     <pre>
         php artisan migrate
     </pre>
-    While run this cmd, Telescope table will be created. 
 </li>
 <li>
     This CMD is no need for 5.8 and above laravel version
@@ -40,11 +40,12 @@
 
 ## Config/telescope.php
 
+<ul>
     <li> path - you can change the URL. Like debugger or some thing else. </li>
     <li> enabled - You can be active or deactive the telescope</li>
     <li> middleware - you can be authorize user only view the telescope </li>
     <li> And some of the option that if you need try that also </li>
-
+</ul>
 ## Providers/TelescopeServiceProvider.php
 
     <li> Gate Function - In that you can be mention the Email,  that user only has a access to view that telescope. </li>
